@@ -1,0 +1,3796 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- ========== META TAGS & SEO ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
+    <meta name="theme-color" content="#3d2817">
+    
+    <!-- PWA / App-like -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="INOVART JDP">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <title>INOVART JDP | Móveis Sob Medida em Itapema-SC - Acabamento de Alto Padrão</title>
+    <meta name="description" content="INOVART JDP - Marcenaria de alto padrão em Itapema-SC. Closets, banheiros, painéis de TV e acabamentos em Branco TX. Empresa que acolhe a comunidade LGBTQ+. Melhor custo-benefício da região.">
+    <meta name="keywords" content="móveis sob medida, marcenaria Itapema, closets planejados, painéis de TV, móveis planejados SC, marceneiro Itapema, móveis alto padrão, INOVART JDP">
+    <meta name="author" content="INOVART JDP">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://inovartjdp.com.br/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="INOVART JDP | Móveis Sob Medida em Itapema-SC">
+    <meta property="og:description" content="Acabamento de altíssima qualidade e melhor custo-benefício da região.">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://inovartjdp.com.br/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="INOVART JDP | Móveis Sob Medida">
+    <meta name="twitter:description" content="Marcenaria de alto padrão em Itapema-SC.">
+
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <!-- ========== FONTES ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ========== FONT AWESOME ========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- ========== AOS ========== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        /* =========================================================
+           VARIÁVEIS CSS - PALETA DE CORES
+           ========================================================= */
+        :root {
+            --color-wood-dark: #2a1810;
+            --color-wood-medium: #5c3a21;
+            --color-wood-light: #8b5a2b;
+            --color-amber: #c9a961;
+            --color-gold: #d4af37;
+            --color-gold-light: #e8c872;
+            
+            --color-cream: #f8f5f0;
+            --color-ivory: #faf7f2;
+            --color-white: #ffffff;
+            --color-gray-light: #e8e4dc;
+            --color-gray: #9a948a;
+            --color-gray-dark: #4a4540;
+            --color-black: #1a1512;
+            
+            --color-accent: #b8860b;
+            
+            --gradient-gold: linear-gradient(135deg, #c9a961 0%, #d4af37 50%, #e8c872 100%);
+            --gradient-wood: linear-gradient(135deg, #2a1810 0%, #5c3a21 100%);
+            --gradient-luxury: linear-gradient(135deg, #3d2817 0%, #8b5a2b 50%, #c9a961 100%);
+            
+            --glass-bg: rgba(255, 255, 255, 0.08);
+            --glass-border: rgba(201, 169, 97, 0.25);
+            
+            --font-display: 'Playfair Display', serif;
+            --font-heading: 'Cormorant Garamond', serif;
+            --font-body: 'Montserrat', sans-serif;
+            
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 2rem;
+            --spacing-lg: 4rem;
+            --spacing-xl: 6rem;
+            --spacing-xxl: 8rem;
+            
+            --shadow-sm: 0 2px 8px rgba(42, 24, 16, 0.08);
+            --shadow-md: 0 8px 24px rgba(42, 24, 16, 0.12);
+            --shadow-lg: 0 16px 48px rgba(42, 24, 16, 0.18);
+            --shadow-xl: 0 24px 64px rgba(42, 24, 16, 0.25);
+            --shadow-gold: 0 8px 32px rgba(201, 169, 97, 0.3);
+            
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-base: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-spring: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+            
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            
+            /* Safe areas para notch/home indicator */
+            --safe-top: env(safe-area-inset-top, 0px);
+            --safe-bottom: env(safe-area-inset-bottom, 0px);
+            --safe-left: env(safe-area-inset-left, 0px);
+            --safe-right: env(safe-area-inset-right, 0px);
+            
+            /* Bottom nav height */
+            --bottom-nav-height: 70px;
+        }
+
+        /* ========== RESET & BASE ========== */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-weight: 300;
+            line-height: 1.7;
+            color: var(--color-gray-dark);
+            background-color: var(--color-ivory);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-tap-highlight-color: transparent;
+            padding-bottom: var(--safe-bottom);
+        }
+
+        /* Evita que o bottom nav cubra conteúdo */
+        @media (max-width: 768px) {
+            body { padding-bottom: calc(var(--bottom-nav-height) + var(--safe-bottom)); }
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            -webkit-user-drag: none;
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition-fast);
+        }
+
+        ul { list-style: none; }
+
+        button {
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* ========== UTILITÁRIOS ========== */
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .section {
+            padding: var(--spacing-xxl) 0;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section-subtitle {
+            font-family: var(--font-body);
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            margin-bottom: var(--spacing-sm);
+            display: inline-block;
+            position: relative;
+            padding: 0 var(--spacing-md);
+        }
+
+        .section-subtitle::before,
+        .section-subtitle::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            width: 25px;
+            height: 1px;
+            background: var(--color-gold);
+        }
+
+        .section-subtitle::before { left: -15px; }
+        .section-subtitle::after { right: -15px; }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 5vw, 3.5rem);
+            font-weight: 600;
+            color: var(--color-wood-dark);
+            line-height: 1.2;
+            margin-bottom: var(--spacing-sm);
+            letter-spacing: -0.5px;
+        }
+
+        .section-title span {
+            color: var(--color-gold);
+            font-style: italic;
+        }
+
+        .section-description {
+            font-size: 1rem;
+            color: var(--color-gray);
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .divider-ornament {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: var(--spacing-md) auto;
+            gap: 12px;
+        }
+
+        .divider-ornament::before,
+        .divider-ornament::after {
+            content: '';
+            height: 1px;
+            width: 50px;
+            background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+        }
+
+        .divider-ornament i {
+            color: var(--color-gold);
+            font-size: 0.85rem;
+        }
+
+        /* ========== BOTÕES ========== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 32px;
+            font-family: var(--font-body);
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            border-radius: 50px;
+            transition: var(--transition-base);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            white-space: nowrap;
+            touch-action: manipulation;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: var(--transition-slow);
+        }
+
+        .btn:hover::before { left: 100%; }
+        .btn:active { transform: scale(0.97); }
+
+        .btn-primary {
+            background: var(--gradient-gold);
+            color: var(--color-wood-dark);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(201, 169, 97, 0.5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--color-cream);
+            border: 2px solid var(--color-gold);
+        }
+
+        .btn-outline:hover {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+            transform: translateY(-3px);
+        }
+
+        /* ========== HEADER ========== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 18px 0;
+            transition: var(--transition-base);
+            background: transparent;
+            padding-top: calc(18px + var(--safe-top));
+        }
+
+        .header.scrolled {
+            background: rgba(42, 24, 16, 0.92);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            padding: 10px 0;
+            padding-top: calc(10px + var(--safe-top));
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid rgba(201, 169, 97, 0.2);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .logo-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        .logo-img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            transition: var(--transition-base);
+            filter: drop-shadow(0 4px 12px rgba(201, 169, 97, 0.4));
+        }
+
+        .header.scrolled .logo-img {
+            width: 42px;
+            height: 42px;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .logo-text .brand {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--color-cream);
+            letter-spacing: 2px;
+        }
+
+        .logo-text .brand span { color: var(--color-gold); }
+
+        .logo-text .tagline {
+            font-size: 0.65rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            font-weight: 400;
+            margin-top: 2px;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2.2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--color-cream);
+            font-size: 0.8rem;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            position: relative;
+            padding: 8px 0;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 1px;
+            background: var(--color-gold);
+            transition: var(--transition-base);
+            transform: translateX(-50%);
+        }
+
+        .nav-link:hover { color: var(--color-gold); }
+        .nav-link:hover::after { width: 100%; }
+        .nav-link.active { color: var(--color-gold); }
+        .nav-link.active::after { width: 100%; }
+
+        .nav-cta {
+            padding: 10px 22px;
+            font-size: 0.72rem;
+        }
+
+        .nav-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+        }
+
+        .nav-toggle span {
+            width: 26px;
+            height: 2px;
+            background: var(--color-cream);
+            transition: var(--transition-base);
+            border-radius: 2px;
+        }
+
+        .nav-toggle.active span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+            background: var(--color-gold);
+        }
+        .nav-toggle.active span:nth-child(2) { opacity: 0; }
+        .nav-toggle.active span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+            background: var(--color-gold);
+        }
+
+        /* ========== HERO ========== */
+        .hero {
+            min-height: 100vh;
+            min-height: 100dvh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: var(--color-wood-dark);
+            padding: 120px 0 80px;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background-image: url('img/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: 1;
+            transform: scale(1.05);
+            animation: kenBurns 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes kenBurns {
+            0% { transform: scale(1.05) translate(0, 0); }
+            100% { transform: scale(1.15) translate(-2%, -2%); }
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, 
+                rgba(42, 24, 16, 0.92) 0%, 
+                rgba(92, 58, 33, 0.78) 50%, 
+                rgba(42, 24, 16, 0.88) 100%);
+            z-index: 2;
+        }
+
+        .hero-overlay::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(201, 169, 97, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
+        }
+
+        .hero-particles {
+            position: absolute;
+            inset: 0;
+            z-index: 3;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: var(--color-gold);
+            border-radius: 50%;
+            opacity: 0;
+            animation: floatParticle 15s infinite;
+            box-shadow: 0 0 10px var(--color-gold);
+        }
+
+        @keyframes floatParticle {
+            0% { transform: translateY(100vh) translateX(0); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(-100px) translateX(100px); opacity: 0; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 4;
+            text-align: center;
+            max-width: 1000px;
+            padding: 0 var(--spacing-md);
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 22px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 50px;
+            color: var(--color-gold);
+            font-size: 0.72rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            margin-bottom: var(--spacing-md);
+            font-weight: 500;
+        }
+
+        .hero-badge i {
+            font-size: 0.85rem;
+            animation: sparkle 2s ease-in-out infinite;
+        }
+
+        @keyframes sparkle {
+            0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+            50% { transform: scale(1.2) rotate(180deg); opacity: 0.8; }
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 6vw, 4.5rem);
+            font-weight: 600;
+            color: var(--color-cream);
+            line-height: 1.1;
+            margin-bottom: var(--spacing-md);
+            letter-spacing: -1px;
+        }
+
+        .hero-title .highlight {
+            display: block;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-style: italic;
+            font-weight: 700;
+            margin-top: 0.3em;
+        }
+
+        .hero-subtitle {
+            font-family: var(--font-heading);
+            font-size: clamp(1rem, 2vw, 1.4rem);
+            color: var(--color-cream);
+            opacity: 0.85;
+            max-width: 700px;
+            margin: 0 auto var(--spacing-lg);
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--spacing-md);
+            max-width: 800px;
+            margin: 0 auto;
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid rgba(201, 169, 97, 0.2);
+        }
+
+        .stat-item { text-align: center; color: var(--color-cream); }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 700;
+            color: var(--color-gold);
+            line-height: 1;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            opacity: 0.8;
+            font-weight: 400;
+        }
+
+        .hero-scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 4;
+            color: var(--color-gold);
+            font-size: 0.65rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.7;
+            animation: scrollBounce 2s ease-in-out infinite;
+        }
+
+        .hero-scroll-indicator .scroll-line {
+            width: 1px;
+            height: 35px;
+            background: linear-gradient(to bottom, var(--color-gold), transparent);
+        }
+
+        @keyframes scrollBounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+
+        /* ========== SOBRE ========== */
+        .about {
+            background: var(--color-ivory);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(201, 169, 97, 0.08), transparent 70%);
+            border-radius: 50%;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+            align-items: center;
+        }
+
+        .about-image-wrapper { position: relative; }
+
+        .about-image {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+            aspect-ratio: 4/5;
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .about-image:hover img { transform: scale(1.05); }
+
+        .about-image::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 50%, rgba(42, 24, 16, 0.4) 100%);
+        }
+
+        .about-frame {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            right: -30px;
+            bottom: -30px;
+            border: 2px solid var(--color-gold);
+            border-radius: var(--radius-lg);
+            z-index: -1;
+        }
+
+        .about-experience-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 140px;
+            height: 140px;
+            background: var(--gradient-gold);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-wood-dark);
+            box-shadow: var(--shadow-lg);
+            z-index: 2;
+        }
+
+        .about-experience-badge .number {
+            font-family: var(--font-display);
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .about-experience-badge .label {
+            font-size: 0.65rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        .about-content { padding: var(--spacing-md) 0; }
+
+        .about-content .section-subtitle { padding-left: 0; }
+        .about-content .section-subtitle::before { display: none; }
+
+        .about-content .section-title {
+            text-align: left;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .about-text {
+            font-size: 1rem;
+            color: var(--color-gray-dark);
+            margin-bottom: var(--spacing-md);
+            line-height: 1.8;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: var(--spacing-sm);
+            margin: var(--spacing-md) 0;
+        }
+
+        .about-feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            background: var(--color-white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-base);
+            border-left: 3px solid var(--color-gold);
+        }
+
+        .about-feature:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .about-feature i {
+            color: var(--color-gold);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .about-feature span {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--color-wood-dark);
+        }
+
+        .pride-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 22px;
+            background: linear-gradient(135deg, rgba(228, 77, 65, 0.08), rgba(147, 88, 193, 0.08), rgba(64, 143, 220, 0.08));
+            border: 1px solid rgba(201, 169, 97, 0.3);
+            border-radius: var(--radius-md);
+            margin-top: var(--spacing-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pride-badge::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, 
+                #e44d41 0%, #e44d41 16.6%,
+                #f5841f 16.6%, #f5841f 33.3%,
+                #f5e51f 33.3%, #f5e51f 50%,
+                #3ba54b 50%, #3ba54b 66.6%,
+                #4b8fd8 66.6%, #4b8fd8 83.3%,
+                #9358c1 83.3%, #9358c1 100%);
+        }
+
+        .pride-badge i {
+            font-size: 1.4rem;
+            background: linear-gradient(135deg, #e44d41, #f5841f, #f5e51f, #3ba54b, #4b8fd8, #9358c1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .pride-badge-text { display: flex; flex-direction: column; }
+
+        .pride-badge-text strong {
+            font-size: 0.9rem;
+            color: var(--color-wood-dark);
+            font-weight: 600;
+        }
+
+        .pride-badge-text span {
+            font-size: 0.78rem;
+            color: var(--color-gray);
+        }
+
+        /* =========================================================
+           GALERIA COMPACTA E ORGANIZADA - NOVO LAYOUT
+           ========================================================= */
+        .services {
+            background: var(--color-cream);
+            position: relative;
+        }
+
+        .services::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+        }
+
+        .services-filter {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: var(--spacing-lg);
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 18px;
+            background: transparent;
+            border: 1px solid var(--color-gray-light);
+            border-radius: 50px;
+            font-size: 0.72rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--color-gray-dark);
+            transition: var(--transition-base);
+            font-weight: 500;
+            touch-action: manipulation;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: var(--color-wood-dark);
+            border-color: var(--color-wood-dark);
+            color: var(--color-gold);
+        }
+
+        /* Grid masonry-style compacto */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            grid-auto-rows: 180px;
+        }
+
+        /* Padrão de layout variado (masonry visual) */
+        .portfolio-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+        .portfolio-item:nth-child(2) { grid-column: span 1; grid-row: span 1; }
+        .portfolio-item:nth-child(3) { grid-column: span 1; grid-row: span 1; }
+        .portfolio-item:nth-child(4) { grid-column: span 1; grid-row: span 2; }
+        .portfolio-item:nth-child(5) { grid-column: span 1; grid-row: span 1; }
+        .portfolio-item:nth-child(6) { grid-column: span 2; grid-row: span 1; }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-base);
+            background: var(--color-wood-dark);
+            will-change: transform;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .portfolio-item:active {
+            transform: scale(0.98);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-slow);
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, 
+                transparent 0%, 
+                transparent 40%, 
+                rgba(42, 24, 16, 0.95) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 16px;
+            transition: var(--transition-base);
+            opacity: 0.85;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+            background: linear-gradient(180deg, 
+                rgba(42, 24, 16, 0.3) 0%, 
+                rgba(42, 24, 16, 0.95) 100%);
+        }
+
+        .portfolio-category {
+            font-size: 0.62rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+
+        .portfolio-title {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            color: var(--color-cream);
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .portfolio-zoom-icon {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 36px;
+            height: 36px;
+            background: rgba(42, 24, 16, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 97, 0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-gold);
+            font-size: 0.85rem;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: var(--transition-base);
+        }
+
+        .portfolio-item:hover .portfolio-zoom-icon {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* ========== LIGHTBOX MODAL ========== */
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            z-index: 10000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left);
+        }
+
+        .lightbox.active {
+            display: flex;
+            animation: lightboxFadeIn 0.3s ease-out;
+        }
+
+        @keyframes lightboxFadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .lightbox-backdrop {
+            position: absolute;
+            inset: 0;
+            background: rgba(20, 12, 8, 0.95);
+            backdrop-filter: blur(20px) saturate(150%);
+            -webkit-backdrop-filter: blur(20px) saturate(150%);
+            animation: backdropFadeIn 0.4s ease-out;
+        }
+
+        @keyframes backdropFadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .lightbox-content {
+            position: relative;
+            z-index: 2;
+            max-width: 90vw;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            animation: lightboxZoomIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        @keyframes lightboxZoomIn {
+            from { 
+                opacity: 0; 
+                transform: scale(0.85); 
+            }
+            to { 
+                opacity: 1; 
+                transform: scale(1); 
+            }
+        }
+
+        .lightbox-image-wrapper {
+            position: relative;
+            max-width: 100%;
+            max-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+        }
+
+        .lightbox-image-wrapper img {
+            max-width: 100%;
+            max-height: 70vh;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .lightbox-caption {
+            text-align: center;
+            color: var(--color-cream);
+            max-width: 600px;
+            padding: 0 20px;
+            animation: captionSlideUp 0.5s ease-out 0.2s both;
+        }
+
+        @keyframes captionSlideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .lightbox-caption-category {
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .lightbox-caption-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+            color: var(--color-cream);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .lightbox-caption-description {
+            font-size: 0.9rem;
+            color: rgba(248, 245, 240, 0.75);
+            line-height: 1.6;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: calc(20px + var(--safe-top));
+            right: 20px;
+            width: 48px;
+            height: 48px;
+            background: rgba(42, 24, 16, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 97, 0.3);
+            border-radius: 50%;
+            color: var(--color-cream);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-base);
+            z-index: 10;
+        }
+
+        .lightbox-close:hover {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+            transform: rotate(90deg) scale(1.1);
+        }
+
+        .lightbox-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 52px;
+            height: 52px;
+            background: rgba(42, 24, 16, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 97, 0.3);
+            border-radius: 50%;
+            color: var(--color-cream);
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: var(--transition-base);
+            z-index: 10;
+        }
+
+        .lightbox-nav:hover {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+            transform: translateY(-50%) scale(1.1);
+        }
+
+        .lightbox-prev { left: 20px; }
+        .lightbox-next { right: 20px; }
+
+        .lightbox-counter {
+            position: absolute;
+            top: calc(28px + var(--safe-top));
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(42, 24, 16, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 97, 0.3);
+            padding: 8px 18px;
+            border-radius: 50px;
+            color: var(--color-gold);
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            font-weight: 500;
+            z-index: 10;
+        }
+
+        .lightbox-thumbnails {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            max-width: 90vw;
+            padding: 8px 4px;
+            scrollbar-width: none;
+        }
+
+        .lightbox-thumbnails::-webkit-scrollbar { display: none; }
+
+        .lightbox-thumb {
+            width: 60px;
+            height: 60px;
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            cursor: pointer;
+            flex-shrink: 0;
+            opacity: 0.5;
+            transition: var(--transition-base);
+            border: 2px solid transparent;
+        }
+
+        .lightbox-thumb.active {
+            opacity: 1;
+            border-color: var(--color-gold);
+            transform: scale(1.05);
+        }
+
+        .lightbox-thumb:hover { opacity: 0.9; }
+
+        .lightbox-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* ========== DIFERENCIAIS ========== */
+        .differentials {
+            background: var(--color-wood-dark);
+            position: relative;
+            overflow: hidden;
+            color: var(--color-cream);
+        }
+
+        .differentials::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(201, 169, 97, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.08) 0%, transparent 40%);
+            pointer-events: none;
+        }
+
+        .differentials .section-title { color: var(--color-cream); }
+        .differentials .section-description { color: rgba(248, 245, 240, 0.7); }
+
+        .diff-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-md);
+            position: relative;
+            z-index: 2;
+        }
+
+        .diff-card {
+            padding: var(--spacing-lg) var(--spacing-md);
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            text-align: center;
+            transition: var(--transition-base);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .diff-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--gradient-gold);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: var(--transition-base);
+        }
+
+        .diff-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.12);
+            border-color: var(--color-gold);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .diff-card:hover::before { transform: scaleX(1); }
+
+        .diff-icon {
+            width: 75px;
+            height: 75px;
+            margin: 0 auto var(--spacing-md);
+            background: var(--gradient-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-wood-dark);
+            font-size: 1.8rem;
+            box-shadow: var(--shadow-gold);
+            transition: var(--transition-base);
+        }
+
+        .diff-card:hover .diff-icon {
+            transform: rotateY(360deg) scale(1.1);
+        }
+
+        .diff-title {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--color-cream);
+            margin-bottom: var(--spacing-sm);
+            font-weight: 600;
+        }
+
+        .diff-text {
+            font-size: 0.92rem;
+            color: rgba(248, 245, 240, 0.75);
+            line-height: 1.7;
+        }
+
+        /* ========== PROCESSO ========== */
+        .process { background: var(--color-ivory); }
+
+        .process-timeline {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: var(--spacing-md);
+            position: relative;
+            margin-top: var(--spacing-lg);
+        }
+
+        .process-step {
+            position: relative;
+            text-align: center;
+            padding: var(--spacing-md);
+        }
+
+        .process-step-number {
+            width: 65px;
+            height: 65px;
+            margin: 0 auto var(--spacing-md);
+            background: var(--color-white);
+            border: 2px solid var(--color-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--color-gold);
+            position: relative;
+            z-index: 2;
+            transition: var(--transition-base);
+        }
+
+        .process-step:hover .process-step-number {
+            background: var(--gradient-gold);
+            color: var(--color-wood-dark);
+            transform: scale(1.1);
+        }
+
+        .process-step-title {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: var(--color-wood-dark);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .process-step-text {
+            font-size: 0.88rem;
+            color: var(--color-gray);
+            line-height: 1.7;
+        }
+
+        /* ========== DEPOIMENTOS ========== */
+        .testimonials {
+            background: var(--color-cream);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .testimonials::before {
+            content: '"';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: var(--font-display);
+            font-size: 40rem;
+            color: var(--color-gold);
+            opacity: 0.04;
+            line-height: 1;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .testimonials-slider {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            z-index: 2;
+        }
+
+        .testimonials-track {
+            display: flex;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .testimonial-slide {
+            min-width: 100%;
+            padding: 0 var(--spacing-sm);
+        }
+
+        .testimonial-card {
+            background: var(--color-white);
+            padding: var(--spacing-lg) var(--spacing-md);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+            position: relative;
+            border: 1px solid rgba(201, 169, 97, 0.15);
+        }
+
+        .testimonial-quote-icon {
+            font-size: 2.5rem;
+            color: var(--color-gold);
+            opacity: 0.3;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .testimonial-text {
+            font-family: var(--font-heading);
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            color: var(--color-wood-dark);
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: var(--spacing-md);
+            font-weight: 400;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            padding-top: var(--spacing-md);
+            border-top: 1px solid var(--color-gray-light);
+        }
+
+        .testimonial-avatar {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: var(--gradient-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-wood-dark);
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .testimonial-info { text-align: left; }
+
+        .testimonial-name {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            color: var(--color-wood-dark);
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .testimonial-role {
+            font-size: 0.78rem;
+            color: var(--color-gray);
+            letter-spacing: 1px;
+        }
+
+        .testimonial-rating {
+            color: var(--color-gold);
+            margin-top: 5px;
+            font-size: 0.8rem;
+        }
+
+        .testimonials-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-lg);
+        }
+
+        .testimonial-btn {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: var(--color-white);
+            border: 1px solid var(--color-gold);
+            color: var(--color-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-base);
+            cursor: pointer;
+        }
+
+        .testimonial-btn:hover {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+            transform: scale(1.1);
+        }
+
+        .testimonials-dots { display: flex; gap: 8px; }
+
+        .testimonial-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--color-gray-light);
+            cursor: pointer;
+            transition: var(--transition-base);
+        }
+
+        .testimonial-dot.active {
+            background: var(--color-gold);
+            width: 28px;
+            border-radius: 5px;
+        }
+
+        /* ========== CTA SECTION ========== */
+        .cta-section {
+            background: var(--gradient-wood);
+            position: relative;
+            overflow: hidden;
+            padding: var(--spacing-xl) 0;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: 
+                radial-gradient(circle at 30% 50%, rgba(201, 169, 97, 0.2) 0%, transparent 50%),
+                radial-gradient(circle at 70% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 50%);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        .cta-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            color: var(--color-cream);
+            font-weight: 600;
+            line-height: 1.2;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .cta-title span {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-style: italic;
+        }
+
+        .cta-description {
+            font-size: 1.05rem;
+            color: rgba(248, 245, 240, 0.85);
+            margin-bottom: var(--spacing-md);
+            font-family: var(--font-heading);
+            font-style: italic;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* ========== CONTATO ========== */
+        .contact { background: var(--color-ivory); }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+        }
+
+        .contact-info { padding: var(--spacing-md) 0; }
+
+        .contact-info .section-subtitle { padding-left: 0; }
+        .contact-info .section-subtitle::before { display: none; }
+        .contact-info .section-title { text-align: left; }
+
+        .contact-text {
+            font-size: 1rem;
+            color: var(--color-gray-dark);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.8;
+        }
+
+        .contact-items {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            padding: 14px;
+            background: var(--color-white);
+            border-radius: var(--radius-md);
+            transition: var(--transition-base);
+            border-left: 3px solid var(--color-gold);
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-item-icon {
+            width: 46px;
+            height: 46px;
+            background: var(--gradient-gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-wood-dark);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .contact-item-content h4 {
+            font-family: var(--font-display);
+            font-size: 1rem;
+            color: var(--color-wood-dark);
+            margin-bottom: 3px;
+            font-weight: 600;
+        }
+
+        .contact-item-content p,
+        .contact-item-content a {
+            font-size: 0.9rem;
+            color: var(--color-gray-dark);
+            line-height: 1.5;
+        }
+
+        .contact-item-content a:hover { color: var(--color-gold); }
+
+        .contact-social {
+            display: flex;
+            gap: 10px;
+            margin-top: var(--spacing-md);
+        }
+
+        .social-link {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--color-white);
+            border: 1px solid var(--color-gray-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-wood-dark);
+            font-size: 1rem;
+            transition: var(--transition-base);
+        }
+
+        .social-link:hover {
+            background: var(--gradient-gold);
+            border-color: transparent;
+            transform: translateY(-5px) rotate(360deg);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .contact-map {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+            min-height: 450px;
+            position: relative;
+        }
+
+        .contact-map iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 450px;
+            border: 0;
+            filter: grayscale(20%) contrast(1.05);
+        }
+
+        /* ========== FOOTER ========== */
+        .footer {
+            background: var(--color-wood-dark);
+            color: var(--color-cream);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+        }
+
+        .footer-main {
+            padding: var(--spacing-xl) 0 var(--spacing-lg);
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: var(--spacing-lg);
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-sm);
+        }
+
+        .footer-logo-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .footer-logo {
+            width: 55px;
+            height: 55px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 12px rgba(201, 169, 97, 0.4));
+        }
+
+        .footer-brand-text .brand {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--color-cream);
+            letter-spacing: 2px;
+        }
+
+        .footer-brand-text .brand span { color: var(--color-gold); }
+
+        .footer-brand-text .tagline {
+            font-size: 0.65rem;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--color-gold);
+            margin-top: 2px;
+        }
+
+        .footer-description {
+            font-size: 0.88rem;
+            color: rgba(248, 245, 240, 0.7);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+            max-width: 400px;
+        }
+
+        .footer-social { display: flex; gap: 10px; }
+
+        .footer-social .social-link {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(201, 169, 97, 0.3);
+            color: var(--color-gold);
+        }
+
+        .footer-social .social-link:hover { color: var(--color-wood-dark); }
+
+        .footer-column h4 {
+            font-family: var(--font-display);
+            font-size: 1.05rem;
+            color: var(--color-cream);
+            margin-bottom: var(--spacing-md);
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        .footer-column h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 35px;
+            height: 2px;
+            background: var(--color-gold);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .footer-link {
+            color: rgba(248, 245, 240, 0.7);
+            font-size: 0.88rem;
+            transition: var(--transition-base);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-link::before {
+            content: '→';
+            color: var(--color-gold);
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: var(--transition-base);
+        }
+
+        .footer-link:hover {
+            color: var(--color-gold);
+            transform: translateX(5px);
+        }
+
+        .footer-link:hover::before {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            color: rgba(248, 245, 240, 0.7);
+            font-size: 0.88rem;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+
+        .footer-contact-item i {
+            color: var(--color-gold);
+            margin-top: 4px;
+            flex-shrink: 0;
+        }
+
+        .footer-bottom {
+            padding: var(--spacing-md) 0;
+            border-top: 1px solid rgba(201, 169, 97, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--spacing-sm);
+        }
+
+        .footer-copyright {
+            font-size: 0.82rem;
+            color: rgba(248, 245, 240, 0.6);
+        }
+
+        .footer-copyright a {
+            color: var(--color-gold);
+            font-weight: 500;
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: var(--spacing-md);
+            font-size: 0.82rem;
+        }
+
+        .footer-legal a { color: rgba(248, 245, 240, 0.6); }
+        .footer-legal a:hover { color: var(--color-gold); }
+
+        /* ========== BOTÕES FLUTUANTES (desktop) ========== */
+        .floating-buttons {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            z-index: 999;
+        }
+
+        .floating-btn {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            font-size: 1.4rem;
+            box-shadow: var(--shadow-lg);
+            transition: var(--transition-base);
+            position: relative;
+            cursor: pointer;
+            touch-action: manipulation;
+        }
+
+        .floating-btn::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            border: 2px solid currentColor;
+            opacity: 0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.4); opacity: 0; }
+        }
+
+        .floating-btn:hover { transform: scale(1.15) rotate(5deg); }
+        .floating-btn:active { transform: scale(1.05); }
+
+        .floating-whatsapp { background: linear-gradient(135deg, #25d366, #128c7e); color: #fff; }
+        .floating-instagram { background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: #fff; }
+        .floating-facebook { background: linear-gradient(135deg, #1877f2, #0d5cb8); color: #fff; }
+
+        .floating-btn-tooltip {
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--color-wood-dark);
+            color: var(--color-cream);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.78rem;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: var(--transition-base);
+            border: 1px solid var(--color-gold);
+        }
+
+        .floating-btn:hover .floating-btn-tooltip {
+            opacity: 1;
+            right: 72px;
+        }
+
+        /* ========== SCROLL TO TOP ========== */
+        .scroll-top {
+            position: fixed;
+            left: 24px;
+            bottom: 24px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--color-wood-dark);
+            color: var(--color-gold);
+            border: 1px solid var(--color-gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-base);
+            z-index: 998;
+            touch-action: manipulation;
+        }
+
+        .scroll-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top:hover {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+            transform: translateY(-5px);
+        }
+
+        /* =========================================================
+           BOTTOM NAVIGATION (mobile/tablet - app-like)
+           ========================================================= */
+        .bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: var(--bottom-nav-height);
+            padding-bottom: var(--safe-bottom);
+            background: rgba(42, 24, 16, 0.96);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-top: 1px solid rgba(201, 169, 97, 0.25);
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .bottom-nav-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            height: 100%;
+            align-items: center;
+        }
+
+        .bottom-nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            color: rgba(248, 245, 240, 0.6);
+            font-size: 0.62rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: var(--transition-fast);
+            padding: 8px 4px;
+            position: relative;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .bottom-nav-item i {
+            font-size: 1.2rem;
+            transition: var(--transition-base);
+        }
+
+        .bottom-nav-item.active {
+            color: var(--color-gold);
+        }
+
+        .bottom-nav-item.active::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 3px;
+            background: var(--gradient-gold);
+            border-radius: 0 0 3px 3px;
+        }
+
+        .bottom-nav-item:active {
+            transform: scale(0.92);
+        }
+
+        /* Item central destacado (WhatsApp) */
+        .bottom-nav-item.highlight {
+            position: relative;
+        }
+
+        .bottom-nav-item.highlight i {
+            width: 46px;
+            height: 46px;
+            background: var(--gradient-gold);
+            color: var(--color-wood-dark);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            margin-top: -14px;
+            box-shadow: 0 6px 18px rgba(201, 169, 97, 0.4);
+        }
+
+        /* Ripple effect para touch */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(201, 169, 97, 0.4);
+            transform: scale(0);
+            animation: rippleEffect 0.6s ease-out;
+            pointer-events: none;
+        }
+
+        @keyframes rippleEffect {
+            to {
+                transform: scale(3);
+                opacity: 0;
+            }
+        }
+
+        /* ========== PRELOADER ========== */
+        .preloader {
+            position: fixed;
+            inset: 0;
+            background: var(--color-wood-dark);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 24px;
+            transition: opacity 0.6s ease, visibility 0.6s ease;
+        }
+
+        .preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .preloader-logo {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+            animation: preloaderPulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes preloaderPulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .preloader-bar {
+            width: 180px;
+            height: 2px;
+            background: rgba(201, 169, 97, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .preloader-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 40%;
+            background: var(--gradient-gold);
+            animation: preloaderSlide 1.5s ease-in-out infinite;
+        }
+
+        @keyframes preloaderSlide {
+            0% { left: -40%; }
+            100% { left: 100%; }
+        }
+
+        /* =========================================================
+           RESPONSIVIDADE REFINADA - APP-LIKE
+           ========================================================= */
+        
+        /* TABLET */
+        @media (max-width: 1024px) {
+            .portfolio-grid {
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 170px;
+            }
+            
+            .portfolio-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+            .portfolio-item:nth-child(2) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(3) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(4) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(5) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(6) { grid-column: span 2; grid-row: span 1; }
+
+            .about-grid,
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-lg);
+            }
+
+            .about-image-wrapper { max-width: 450px; margin: 0 auto; }
+
+            .footer-main {
+                grid-template-columns: 1fr 1fr;
+                gap: var(--spacing-lg);
+            }
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            :root {
+                --spacing-xl: 3.5rem;
+                --spacing-xxl: 4.5rem;
+            }
+
+            .container { padding: 0 var(--spacing-sm); }
+
+            /* Header mobile */
+            .nav-menu {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 85%;
+                max-width: 340px;
+                height: 100vh;
+                height: 100dvh;
+                background: var(--color-wood-dark);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: var(--spacing-md);
+                transition: var(--transition-base);
+                box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3);
+                border-left: 1px solid rgba(201, 169, 97, 0.2);
+                padding-top: var(--safe-top);
+                padding-bottom: var(--safe-bottom);
+            }
+
+            .nav-menu.active { right: 0; }
+
+            .nav-toggle { display: flex; }
+            .nav-cta { display: none; }
+
+            .logo-text .brand { font-size: 1.05rem; }
+            .logo-text .tagline { font-size: 0.58rem; }
+            .logo-img { width: 42px; height: 42px; }
+
+            /* Hero mobile */
+            .hero { padding: 100px 0 60px; }
+            
+            .hero-stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: var(--spacing-sm);
+            }
+
+            .hero-cta-group {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero-cta-group .btn {
+                width: 100%;
+                max-width: 280px;
+            }
+
+            .hero-scroll-indicator { display: none; }
+
+            /* About mobile */
+            .about-features { grid-template-columns: 1fr; }
+
+            .about-frame {
+                top: 15px;
+                left: 15px;
+                right: -15px;
+                bottom: -15px;
+            }
+
+            .about-experience-badge {
+                width: 110px;
+                height: 110px;
+                right: -10px;
+                bottom: -10px;
+            }
+
+            .about-experience-badge .number { font-size: 2rem; }
+            .about-experience-badge .label { font-size: 0.58rem; }
+
+            /* Galeria mobile - 2 colunas */
+            .portfolio-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 150px;
+                gap: 10px;
+            }
+
+            .portfolio-item:nth-child(1) { grid-column: span 2; grid-row: span 1; }
+            .portfolio-item:nth-child(2) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(3) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(4) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(5) { grid-column: span 1; grid-row: span 1; }
+            .portfolio-item:nth-child(6) { grid-column: span 2; grid-row: span 1; }
+
+            .portfolio-overlay { padding: 12px; opacity: 1; }
+            .portfolio-title { font-size: 0.9rem; }
+            .portfolio-category { font-size: 0.58rem; }
+            .portfolio-zoom-icon { display: none; }
+
+            /* Lightbox mobile */
+            .lightbox-nav {
+                width: 42px;
+                height: 42px;
+                font-size: 1rem;
+            }
+            .lightbox-prev { left: 10px; }
+            .lightbox-next { right: 10px; }
+
+            .lightbox-close {
+                width: 42px;
+                height: 42px;
+                top: calc(15px + var(--safe-top));
+                right: 15px;
+            }
+
+            .lightbox-counter {
+                top: calc(20px + var(--safe-top));
+                font-size: 0.72rem;
+                padding: 6px 14px;
+            }
+
+            .lightbox-image-wrapper {
+                max-height: 55vh;
+            }
+
+            .lightbox-image-wrapper img {
+                max-height: 55vh;
+            }
+
+            .lightbox-caption {
+                padding: 0 16px;
+            }
+
+            .lightbox-caption-title {
+                font-size: 1.2rem;
+            }
+
+            .lightbox-caption-description {
+                font-size: 0.82rem;
+            }
+
+            .lightbox-thumb {
+                width: 48px;
+                height: 48px;
+            }
+
+            /* Footer mobile */
+            .footer-main {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: var(--spacing-md);
+            }
+
+            .footer-column h4::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .footer-brand { align-items: center; }
+            .footer-logo-wrapper { justify-content: center; }
+            .footer-description { text-align: center; }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            /* Floating buttons - esconde no mobile (usa bottom nav) */
+            .floating-buttons { display: none; }
+            .scroll-top {
+                left: 16px;
+                bottom: calc(var(--bottom-nav-height) + 16px + var(--safe-bottom));
+                width: 42px;
+                height: 42px;
+            }
+
+            /* Contact mobile */
+            .contact-map {
+                min-height: 350px;
+            }
+
+            .contact-map iframe {
+                min-height: 350px;
+            }
+
+            /* CTA mobile */
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .cta-buttons .btn {
+                width: 100%;
+                max-width: 280px;
+            }
+
+            /* Bottom nav visível */
+            .bottom-nav { display: block; }
+        }
+
+        /* MOBILE PEQUENO */
+        @media (max-width: 480px) {
+            .hero-badge {
+                font-size: 0.6rem;
+                padding: 8px 16px;
+                letter-spacing: 1.5px;
+            }
+
+            .section-subtitle {
+                font-size: 0.7rem;
+                letter-spacing: 1.5px;
+            }
+
+            .portfolio-grid {
+                grid-auto-rows: 130px;
+                gap: 8px;
+            }
+
+            .testimonial-card {
+                padding: var(--spacing-md) var(--spacing-sm);
+            }
+
+            .lightbox-thumb {
+                width: 42px;
+                height: 42px;
+            }
+        }
+
+        /* LANDSCAPE em mobile */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .hero { min-height: auto; padding: 100px 0 40px; }
+            .hero-stats { display: none; }
+            .lightbox-image-wrapper img { max-height: 70vh; }
+        }
+
+        /* ========== ACESSIBILIDADE ========== */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--color-gold);
+            outline-offset: 3px;
+        }
+
+        ::selection {
+            background: var(--color-gold);
+            color: var(--color-wood-dark);
+        }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--color-ivory); }
+        ::-webkit-scrollbar-thumb {
+            background: var(--gradient-gold);
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover { background: var(--color-gold); }
+
+        /* Body com scroll bloqueado quando lightbox aberto */
+        body.lightbox-open {
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== PRELOADER ========== -->
+    <div class="preloader" id="preloader">
+        <img src="logo.png" alt="INOVART JDP" class="preloader-logo">
+        <div class="preloader-bar"></div>
+    </div>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="logo-wrapper" aria-label="INOVART JDP - Início">
+                    <img src="logo.png" alt="Logo INOVART JDP" class="logo-img">
+                    <div class="logo-text">
+                        <span class="brand">INOVART <span>JDP</span></span>
+                        <span class="tagline">Móveis Sob Medida</span>
+                    </div>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                    <li>
+                        <a href="https://wa.me/5547984893546?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+                           target="_blank" rel="noopener" class="btn btn-primary nav-cta">
+                            <i class="fab fa-whatsapp"></i> Orçamento
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="100">
+                <i class="fas fa-award"></i>
+                <span>Marcenaria de Alto Padrão em Itapema-SC</span>
+            </div>
+
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                Seus móveis sob medida
+                <span class="highlight">com acabamento de altíssima qualidade</span>
+            </h1>
+
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
+                Transformamos seus sonhos em realidade com design exclusivo, materiais nobres e o melhor custo-benefício da região.
+            </p>
+
+            <div class="hero-cta-group" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://wa.me/5547984893546?text=Olá!%20Gostaria%20de%20um%20orçamento%20de%20móveis%20sob%20medida." 
+                   target="_blank" rel="noopener" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                </a>
+                <a href="#portfolio" class="btn btn-outline">
+                    <i class="fas fa-images"></i> Ver Portfólio
+                </a>
+            </div>
+
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span>
+                    <span class="stat-label">Projetos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="15">0</span>
+                    <span class="stat-label">Anos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="100">0</span>
+                    <span class="stat-label">% Satisfação</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span>
+                    <span class="stat-label">Modelos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <span>Role para baixo</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section class="section about" id="sobre">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper" data-aos="fade-right">
+                    <div class="about-image">
+                        <img src="img/sobre.jpg" alt="Marceneiro INOVART JDP em Itapema-SC" 
+                             onerror="this.src='https://i.ibb.co/nM6FpxYC/sobre.jpg'">
+                    </div>
+                    <div class="about-frame"></div>
+                    <div class="about-experience-badge">
+                        <span class="number">15+</span>
+                        <span class="label">Anos de<br>Experiência</span>
+                    </div>
+                </div>
+
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-subtitle">Sobre Nós</span>
+                    <h2 class="section-title">
+                        Tradição, arte e <span>inovação</span> em cada detalhe
+                    </h2>
+                    
+                    <div class="divider-ornament" style="justify-content: flex-start; margin-left: 0;">
+                        <i class="fas fa-diamond"></i>
+                    </div>
+
+                    <p class="about-text">
+                        A <strong>INOVART JDP</strong> é referência em marcenaria de alto padrão em <strong>Itapema-SC</strong>, 
+                        unindo a expertise artesanal de um marceneiro experiente ao que há de mais moderno em design e tecnologia. 
+                        Cada projeto é pensado de forma exclusiva, respeitando o espaço, o estilo de vida e os sonhos de cada cliente.
+                    </p>
+
+                    <p class="about-text">
+                        Trabalhamos com materiais selecionados, acabamentos impecáveis e um compromisso inegociável com a qualidade. 
+                        Do projeto à instalação, acompanhamos cada etapa para garantir que o resultado final supere suas expectativas.
+                    </p>
+
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Projeto 3D Personalizado</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Materiais Premium</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Entrega no Prazo</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantia de Qualidade</span>
+                        </div>
+                    </div>
+
+                    <div class="pride-badge">
+                        <i class="fas fa-heart"></i>
+                        <div class="pride-badge-text">
+                            <strong>Empresa que acolhe a comunidade LGBTQ+</strong>
+                            <span>Aqui todos são bem-vindos — respeito e diversidade em cada projeto.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFÓLIO / GALERIA ========== -->
+    <section class="section services" id="portfolio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nosso Portfólio</span>
+                <h2 class="section-title">Projetos que <span>inspiram</span></h2>
+                <div class="divider-ornament">
+                    <i class="fas fa-diamond"></i>
+                </div>
+                <p class="section-description">
+                    Toque em qualquer projeto para ver em detalhes. Cada trabalho é uma história única de transformação e sofisticação.
+                </p>
+            </div>
+
+            <div class="services-filter" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="closets">Closets</button>
+                <button class="filter-btn" data-filter="banheiros">Banheiros</button>
+                <button class="filter-btn" data-filter="tv">Painéis TV</button>
+                <button class="filter-btn" data-filter="cozinhas">Cozinhas</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- PROJETO 1 - DESTAQUE -->
+                <div class="portfolio-item" 
+                     data-category="closets" 
+                     data-title="Closet Master Suíte"
+                     data-description="Closet em Branco TX com iluminação em LED e acabamentos em madeira nobre. Projeto exclusivo com ilha central e sapateira iluminada."
+                     data-img="img/projeto1.jpg"
+                     data-fallback="https://i.ibb.co/9HbHr9F0/closet.jpg5"
+                     data-aos="fade-up" data-aos-delay="100">
+                    <img src="img/projeto1.jpg" alt="Closet planejado alto padrão" 
+                         onerror="this.src='https://i.ibb.co/9HbHr9F0/closet.jpg'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Closet Planejado</span>
+                        <h3 class="portfolio-title">Closet Master Suíte</h3>
+                    </div>
+                </div>
+
+                <!-- PROJETO 2 -->
+                <div class="portfolio-item" 
+                     data-category="banheiros" 
+                     data-title="Banheiro de Luxo"
+                     data-description="Gabinete suspenso em madeira maciça com bancada em mármore e espelho iluminado. Acabamento premium."
+                     data-img="img/projeto2.jpg"
+                     data-fallback="https://i.ibb.co/mpwQ5z5/banheiro.jpg"
+                     data-aos="fade-up" data-aos-delay="150">
+                    <img src="img/projeto2.jpg" alt="Banheiro planejado sofisticado" 
+                         onerror="this.src='https://i.ibb.co/mpwQ5z5/banheiro.jpg'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Banheiro</span>
+                        <h3 class="portfolio-title">Banheiro de Luxo</h3>
+                    </div>
+                </div>
+
+                <!-- PROJETO 3 -->
+                <div class="portfolio-item" 
+                     data-category="tv" 
+                     data-title="Painel Living Room"
+                     data-description="Painel ripado com iluminação embutida e nichos estratégicos para home theater completo."
+                     data-img="img/projeto3.jpg"
+                     data-fallback="https://i.ibb.co/RGqczWh7/painel.jpg5"
+                     data-aos="fade-up" data-aos-delay="200">
+                    <img src="img/projeto3.jpg" alt="Painel de TV moderno" 
+                         onerror="this.src='https://i.ibb.co/RGqczWh7/painel.jpg5'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Painel de TV</span>
+                        <h3 class="portfolio-title">Painel Living Room</h3>
+                    </div>
+                </div>
+
+                <!-- PROJETO 4 -->
+                <div class="portfolio-item" 
+                     data-category="cozinhas" 
+                     data-title="Cozinha Gourmet"
+                     data-description="Cozinha em Branco TX com ilha central, acabamentos em aço escovado e iluminação de destaque."
+                     data-img="img/projeto4.jpg"
+                     data-fallback="https://i.ibb.co/Z18QmBV0/cozinha.jpg"
+                     data-aos="fade-up" data-aos-delay="250">
+                    <img src="img/projeto4.jpg" alt="Cozinha planejada Branco TX" 
+                         onerror="this.src='https://i.ibb.co/Z18QmBV0/cozinha.jpg'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Cozinha</span>
+                        <h3 class="portfolio-title">Cozinha Gourmet</h3>
+                    </div>
+                </div>
+
+                <!-- PROJETO 5 -->
+                <div class="portfolio-item" 
+                     data-category="closets" 
+                     data-title="Closet Feminino"
+                     data-description="Closet com ilha central, sapateira iluminada e acabamento em laca acetinada. Design sofisticado."
+                     data-img="img/projeto5.jpg"
+                     data-fallback="https://i.ibb.co/84zxXwjK/closet2.jpg"
+                     data-aos="fade-up" data-aos-delay="300">
+                    <img src="img/projeto5.jpg" alt="Closet feminino planejado" 
+                         onerror="this.src='https://i.ibb.co/84zxXwjK/closet2.jpg'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Closet Planejado</span>
+                        <h3 class="portfolio-title">Closet Feminino</h3>
+                    </div>
+                </div>
+
+                <!-- PROJETO 6 -->
+                <div class="portfolio-item" 
+                     data-category="banheiros" 
+                     data-title="Banheiro Contemporâneo"
+                     data-description="Design clean com marcenaria em tom amadeirado e metais dourados. Sofisticação e funcionalidade."
+                     data-img="img/projeto6.jpg"
+                     data-fallback="https://i.ibb.co/vvJ2wtTF/banheiro2.jpg"
+                     data-aos="fade-up" data-aos-delay="350">
+                    <img src="img/projeto6.jpg" alt="Banheiro moderno planejado" 
+                         onerror="this.src='https://i.ibb.co/vvJ2wtTF/banheiro2.jpg'">
+                    <div class="portfolio-zoom-icon"><i class="fas fa-search-plus"></i></div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Banheiro</span>
+                        <h3 class="portfolio-title">Banheiro Contemporâneo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DIFERENCIAIS ========== -->
+    <section class="section differentials" id="diferenciais">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nossos Diferenciais</span>
+                <h2 class="section-title">Por que escolher a <span>INOVART JDP</span>?</h2>
+                <div class="divider-ornament">
+                    <i class="fas fa-diamond"></i>
+                </div>
+                <p class="section-description">
+                    Combinamos tradição, técnica e inovação para entregar móveis que são verdadeiras obras de arte.
+                </p>
+            </div>
+
+            <div class="diff-grid">
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="diff-icon"><i class="fas fa-gem"></i></div>
+                    <h3 class="diff-title">Acabamento de Altíssima Qualidade</h3>
+                    <p class="diff-text">
+                        Cada detalhe é pensado com precisão milimétrica. Utilizamos técnicas avançadas e materiais premium 
+                        para garantir um acabamento impecável que dura gerações.
+                    </p>
+                </div>
+
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="diff-icon"><i class="fas fa-award"></i></div>
+                    <h3 class="diff-title">Melhor Custo-Benefício da Região</h3>
+                    <p class="diff-text">
+                        Qualidade premium com preço justo. Trabalhamos com transparência total, oferecendo o melhor 
+                        investimento para quem busca sofisticação sem abrir mão do orçamento.
+                    </p>
+                </div>
+
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="diff-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <h3 class="diff-title">Projetos 100% Personalizados</h3>
+                    <p class="diff-text">
+                        Cada ambiente é único, e seu móvel também deve ser. Desenvolvemos projetos exclusivos, 
+                        respeitando seu estilo, espaço e necessidades específicas.
+                    </p>
+                </div>
+
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="diff-icon"><i class="fas fa-handshake"></i></div>
+                    <h3 class="diff-title">Atendimento Humanizado</h3>
+                    <p class="diff-text">
+                        Uma empresa que acolhe a todos, incluindo a comunidade LGBTQ+. Aqui você é ouvido, 
+                        respeitado e atendido com dedicação do início ao fim.
+                    </p>
+                </div>
+
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="diff-icon"><i class="fas fa-truck-fast"></i></div>
+                    <h3 class="diff-title">Entrega e Instalação Pontuais</h3>
+                    <p class="diff-text">
+                        Cumprimos prazos com rigor. Nossa equipe é treinada para entregar e instalar seu móvel 
+                        com agilidade, limpeza e total cuidado.
+                    </p>
+                </div>
+
+                <div class="diff-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="diff-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3 class="diff-title">Garantia Estendida</h3>
+                    <p class="diff-text">
+                        Confiamos tanto na qualidade do nosso trabalho que oferecemos garantia estendida 
+                        em todos os nossos projetos. Sua tranquilidade é nossa prioridade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESSO ========== -->
+    <section class="section process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Como Trabalhamos</span>
+                <h2 class="section-title">Nosso <span>processo</span> criativo</h2>
+                <div class="divider-ornament">
+                    <i class="fas fa-diamond"></i>
+                </div>
+                <p class="section-description">
+                    Do primeiro contato à instalação final, cada etapa é conduzida com excelência e transparência.
+                </p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-step-number">01</div>
+                    <h3 class="process-step-title">Briefing</h3>
+                    <p class="process-step-text">Entendemos suas necessidades, estilo e expectativas em uma conversa detalhada.</p>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-step-number">02</div>
+                    <h3 class="process-step-title">Projeto 3D</h3>
+                    <p class="process-step-text">Desenvolvemos um projeto visual realista para você aprovar antes da produção.</p>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-step-number">03</div>
+                    <h3 class="process-step-title">Produção</h3>
+                    <p class="process-step-text">Fabricação artesanal com materiais selecionados e controle rigoroso de qualidade.</p>
+                </div>
+
+                <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+                    <div class="process-step-number">04</div>
+                    <h3 class="process-step-title">Instalação</h3>
+                    <p class="process-step-text">Montagem profissional com acabamento impecável e limpeza completa do ambiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section class="section testimonials" id="depoimentos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Depoimentos</span>
+                <h2 class="section-title">O que nossos <span>clientes</span> dizem</h2>
+                <div class="divider-ornament">
+                    <i class="fas fa-diamond"></i>
+                </div>
+                <p class="section-description">
+                    A satisfação dos nossos clientes é o nosso maior orgulho. Confira alguns depoimentos reais.
+                </p>
+            </div>
+
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="testimonial-text">"Ótimo trabalho, acabamento de altíssima qualidade."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">C</div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Cliente Satisfeito</div>
+                                    <div class="testimonial-role">Itapema - SC</div>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="testimonial-text">"Ótimo profissional, excelente acabamento e o melhor custo benefício... Super indico. 😎👍"</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">E</div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Emanoel Jose</div>
+                                    <div class="testimonial-role">Cliente Verificado</div>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="testimonial-text">"Profissionalismo do início ao fim. O closet ficou exatamente como eu sonhava, com acabamento impecável e entrega no prazo. Recomendo de olhos fechados!"</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">M</div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Mariana Silva</div>
+                                    <div class="testimonial-role">Itapema - SC</div>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote-icon"><i class="fas fa-quote-left"></i></div>
+                            <p class="testimonial-text">"Atendimento humanizado, preço justo e qualidade surpreendente. A INOVART JDP transformou minha cozinha em um ambiente de revista!"</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">R</div>
+                                <div class="testimonial-info">
+                                    <div class="testimonial-name">Rafael Costa</div>
+                                    <div class="testimonial-role">Balneário Camboriú - SC</div>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials-controls">
+                    <button class="testimonial-btn" id="prevTestimonial" aria-label="Anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-dots" id="testimonialsDots"></div>
+                    <button class="testimonial-btn" id="nextTestimonial" aria-label="Próximo">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta-section">
+        <div class="cta-content" data-aos="zoom-in">
+            <h2 class="cta-title">
+                Pronto para transformar <span>seu ambiente</span>?
+            </h2>
+            <p class="cta-description">
+                Solicite agora um orçamento sem compromisso e descubra como podemos tornar seu projeto realidade.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5547984893546?text=Olá!%20Gostaria%20de%20um%20orçamento%20de%20móveis%20sob%20medida." 
+                   target="_blank" rel="noopener" class="btn btn-primary">
+                    <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+                </a>
+                <a href="#contato" class="btn btn-outline">
+                    <i class="fas fa-map-marker-alt"></i> Visite-nos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="section contact" id="contato">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-subtitle">Contato</span>
+                    <h2 class="section-title">Vamos conversar sobre o <span>seu projeto</span>?</h2>
+                    
+                    <div class="divider-ornament" style="justify-content: flex-start; margin-left: 0;">
+                        <i class="fas fa-diamond"></i>
+                    </div>
+
+                    <p class="contact-text">
+                        Estamos prontos para atender você com toda a atenção que seu projeto merece. 
+                        Entre em contato pelos canais abaixo ou visite nosso atelier.
+                    </p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-item-content">
+                                <h4>Endereço</h4>
+                                <p>R. 902 E, 97 - Alto São Bento<br>Itapema - SC</p>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/5547984893546" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-item-icon"><i class="fab fa-whatsapp"></i></div>
+                            <div class="contact-item-content">
+                                <h4>WhatsApp</h4>
+                                <p>(47) 98489-3546</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/inovart_jdp/" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-item-icon"><i class="fab fa-instagram"></i></div>
+                            <div class="contact-item-content">
+                                <h4>Instagram</h4>
+                                <p>@inovart_jdp</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.facebook.com/jdpmoveis/" target="_blank" rel="noopener" class="contact-item">
+                            <div class="contact-item-icon"><i class="fab fa-facebook-f"></i></div>
+                            <div class="contact-item-content">
+                                <h4>Facebook</h4>
+                                <p>/jdpmoveis</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://wa.me/5547984893546" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/inovart_jdp/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/jdpmoveis/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-map" data-aos="fade-left">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.123456789!2d-48.6150!3d-27.1770!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sR.%20902%20E%2C%2097%20-%20Alto%20S%C3%A3o%20Bento%2C%20Itapema%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização INOVART JDP">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <img src="logo.png" alt="Logo INOVART JDP" class="footer-logo">
+                        <div class="footer-brand-text">
+                            <div class="brand">INOVART <span>JDP</span></div>
+                            <div class="tagline">Móveis Sob Medida</div>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Marcenaria de alto padrão em Itapema-SC. Transformamos ambientes com projetos exclusivos, 
+                        acabamento impecável e o melhor custo-benefício da região.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/5547984893546" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com/inovart_jdp/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/jdpmoveis/" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" class="footer-link">Início</a></li>
+                        <li><a href="#sobre" class="footer-link">Sobre Nós</a></li>
+                        <li><a href="#portfolio" class="footer-link">Portfólio</a></li>
+                        <li><a href="#diferenciais" class="footer-link">Diferenciais</a></li>
+                        <li><a href="#depoimentos" class="footer-link">Depoimentos</a></li>
+                        <li><a href="#contato" class="footer-link">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#portfolio" class="footer-link">Closets Planejados</a></li>
+                        <li><a href="#portfolio" class="footer-link">Banheiros</a></li>
+                        <li><a href="#portfolio" class="footer-link">Painéis de TV</a></li>
+                        <li><a href="#portfolio" class="footer-link">Cozinhas</a></li>
+                        <li><a href="#portfolio" class="footer-link">Acabamento Branco TX</a></li>
+                        <li><a href="#portfolio" class="footer-link">Projetos 3D</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contato</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>R. 902 E, 97 - Alto São Bento<br>Itapema - SC</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>(47) 98489-3546</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Seg - Sex: 8h às 18h<br>Sáb: 8h às 12h</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2026 <a href="#home">INOVART JDP</a> - Móveis Sob Medida. Todos os direitos reservados.
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== LIGHTBOX MODAL ========== -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizar imagem">
+        <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+        
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <div class="lightbox-counter" id="lightboxCounter">1 / 6</div>
+
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Anterior">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Próximo">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <div class="lightbox-content">
+            <div class="lightbox-image-wrapper">
+                <img id="lightboxImage" src="" alt="">
+            </div>
+            <div class="lightbox-caption">
+                <div class="lightbox-caption-category" id="lightboxCategory"></div>
+                <h3 class="lightbox-caption-title" id="lightboxTitle"></h3>
+                <p class="lightbox-caption-description" id="lightboxDescription"></p>
+            </div>
+            <div class="lightbox-thumbnails" id="lightboxThumbnails"></div>
+        </div>
+    </div>
+
+    <!-- ========== BOTÕES FLUTUANTES (desktop) ========== -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/5547984893546?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+           target="_blank" rel="noopener" class="floating-btn floating-whatsapp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="floating-btn-tooltip">Fale conosco</span>
+        </a>
+        <a href="https://www.instagram.com/inovart_jdp/" 
+           target="_blank" rel="noopener" class="floating-btn floating-instagram" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="floating-btn-tooltip">Siga no Instagram</span>
+        </a>
+        <a href="https://www.facebook.com/jdpmoveis/" 
+           target="_blank" rel="noopener" class="floating-btn floating-facebook" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+            <span class="floating-btn-tooltip">Curta no Facebook</span>
+        </a>
+    </div>
+
+    <!-- ========== SCROLL TO TOP ========== -->
+    <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ========== BOTTOM NAVIGATION (mobile/tablet) ========== -->
+    <nav class="bottom-nav" id="bottomNav" aria-label="Menu principal mobile">
+        <ul class="bottom-nav-list">
+            <li>
+                <a href="#home" class="bottom-nav-item active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Início</span>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio" class="bottom-nav-item" data-section="portfolio">
+                    <i class="fas fa-th-large"></i>
+                    <span>Portfólio</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://wa.me/5547984893546?text=Olá!%20Gostaria%20de%20um%20orçamento." 
+                   target="_blank" rel="noopener" class="bottom-nav-item highlight">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </li>
+            <li>
+                <a href="#depoimentos" class="bottom-nav-item" data-section="depoimentos">
+                    <i class="fas fa-star"></i>
+                    <span>Avaliações</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contato" class="bottom-nav-item" data-section="contato">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // ========== INICIALIZAÇÃO AOS ==========
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 60,
+            disable: window.innerWidth < 768 ? 'phone' : false
+        });
+
+        // ========== PRELOADER ==========
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 600);
+        });
+
+        // ========== HEADER SCROLL ==========
+        const header = document.getElementById('header');
+        const scrollTop = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY;
+            
+            if (scrollY > 80) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+
+            if (scrollY > 500) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        scrollTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ========== MOBILE MENU ==========
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // ========== ACTIVE NAV LINK ==========
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const bottomNavItems = document.querySelectorAll('.bottom-nav-item[data-section]');
+
+        function updateActiveNav() {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 120;
+                if (window.scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+
+            bottomNavItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-section') === current) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNav);
+
+        // ========== ANIMAÇÃO DE CONTAGEM ==========
+        const counters = document.querySelectorAll('.stat-number');
+        let counterAnimated = false;
+
+        const animateCounters = () => {
+            if (counterAnimated) return;
+            
+            const heroStats = document.querySelector('.hero-stats');
+            if (!heroStats) return;
+            
+            const rect = heroStats.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                counterAnimated = true;
+                counters.forEach(counter => {
+                    const target = parseInt(counter.getAttribute('data-count'));
+                    const duration = 1800;
+                    const step = target / (duration / 16);
+                    let current = 0;
+
+                    const updateCounter = () => {
+                        current += step;
+                        if (current < target) {
+                            counter.textContent = Math.floor(current);
+                            requestAnimationFrame(updateCounter);
+                        } else {
+                            counter.textContent = target + (target === 100 ? '' : '+');
+                        }
+                    };
+                    updateCounter();
+                });
+            }
+        };
+
+        window.addEventListener('scroll', animateCounters);
+        window.addEventListener('load', animateCounters);
+
+        // ========== PARTÍCULAS HERO ==========
+        const particlesContainer = document.getElementById('particles');
+        if (particlesContainer) {
+            const particleCount = window.innerWidth < 768 ? 15 : 30;
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 15 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+                particle.style.width = (Math.random() * 3 + 1) + 'px';
+                particle.style.height = particle.style.width;
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // =========================================================
+        // ========== GALERIA + LIGHTBOX (NOVO) ====================
+        // =========================================================
+        
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxBackdrop = document.getElementById('lightboxBackdrop');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const lightboxPrev = document.getElementById('lightboxPrev');
+        const lightboxNext = document.getElementById('lightboxNext');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxTitle = document.getElementById('lightboxTitle');
+        const lightboxCategory = document.getElementById('lightboxCategory');
+        const lightboxDescription = document.getElementById('lightboxDescription');
+        const lightboxCounter = document.getElementById('lightboxCounter');
+        const lightboxThumbnails = document.getElementById('lightboxThumbnails');
+        
+        let currentLightboxIndex = 0;
+        let visibleItems = [];
+        let scrollPosition = 0;
+
+        // Atualiza lista de itens visíveis (após filtro)
+        function updateVisibleItems() {
+            visibleItems = Array.from(portfolioItems).filter(item => 
+                item.style.display !== 'none'
+            );
+        }
+
+        // Abre lightbox
+        function openLightbox(index) {
+            updateVisibleItems();
+            if (visibleItems.length === 0) return;
+            
+            currentLightboxIndex = index;
+            scrollPosition = window.scrollY;
+            document.body.classList.add('lightbox-open');
+            document.body.style.top = `-${scrollPosition}px`;
+            
+            updateLightboxContent();
+            lightbox.classList.add('active');
+            
+            // Trapa foco
+            lightboxClose.focus();
+        }
+
+        // Atualiza conteúdo do lightbox
+        function updateLightboxContent() {
+            const item = visibleItems[currentLightboxIndex];
+            if (!item) return;
+
+            const imgSrc = item.dataset.img;
+            const fallback = item.dataset.fallback;
+            const title = item.dataset.title;
+            const category = item.querySelector('.portfolio-category')?.textContent || '';
+            const description = item.dataset.description;
+
+            lightboxImage.src = imgSrc;
+            lightboxImage.alt = title;
+            lightboxImage.onerror = function() {
+                this.src = fallback;
+            };
+
+            lightboxTitle.textContent = title;
+            lightboxCategory.textContent = category;
+            lightboxDescription.textContent = description;
+            lightboxCounter.textContent = `${currentLightboxIndex + 1} / ${visibleItems.length}`;
+
+            // Atualiza thumbnails
+            updateThumbnails();
+        }
+
+        // Cria/atualiza thumbnails
+        function updateThumbnails() {
+            lightboxThumbnails.innerHTML = '';
+            visibleItems.forEach((item, index) => {
+                const thumb = document.createElement('div');
+                thumb.className = 'lightbox-thumb' + (index === currentLightboxIndex ? ' active' : '');
+                const img = document.createElement('img');
+                img.src = item.dataset.img;
+                img.alt = item.dataset.title;
+                img.onerror = function() { this.src = item.dataset.fallback; };
+                thumb.appendChild(img);
+                thumb.addEventListener('click', () => {
+                    currentLightboxIndex = index;
+                    updateLightboxContent();
+                });
+                lightboxThumbnails.appendChild(thumb);
+            });
+
+            // Scroll thumbnail ativa para o centro
+            const activeThumb = lightboxThumbnails.querySelector('.active');
+            if (activeThumb) {
+                const containerRect = lightboxThumbnails.getBoundingClientRect();
+                const thumbRect = activeThumb.getBoundingClientRect();
+                const offset = (thumbRect.left - containerRect.left) - (containerRect.width / 2) + (thumbRect.width / 2);
+                lightboxThumbnails.scrollBy({ left: offset, behavior: 'smooth' });
+            }
+        }
+
+        // Fecha lightbox
+        function closeLightbox() {
+            lightbox.classList.remove('active');
+            document.body.classList.remove('lightbox-open');
+            document.body.style.top = '';
+            window.scrollTo(0, scrollPosition);
+        }
+
+        // Navegação
+        function nextImage() {
+            currentLightboxIndex = (currentLightboxIndex + 1) % visibleItems.length;
+            updateLightboxContent();
+        }
+
+        function prevImage() {
+            currentLightboxIndex = (currentLightboxIndex - 1 + visibleItems.length) % visibleItems.length;
+            updateLightboxContent();
+        }
+
+        // Event listeners dos itens
+        portfolioItems.forEach((item, index) => {
+            item.addEventListener('click', () => {
+                updateVisibleItems();
+                const visibleIndex = visibleItems.indexOf(item);
+                if (visibleIndex !== -1) openLightbox(visibleIndex);
+            });
+        });
+
+        // Controles do lightbox
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxBackdrop.addEventListener('click', closeLightbox);
+        lightboxNext.addEventListener('click', nextImage);
+        lightboxPrev.addEventListener('click', prevImage);
+
+        // Teclado
+        document.addEventListener('keydown', (e) => {
+            if (!lightbox.classList.contains('active')) return;
+            
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'ArrowLeft') prevImage();
+        });
+
+        // Swipe no lightbox (mobile)
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        const lightboxContent = document.querySelector('.lightbox-content');
+
+        lightboxContent.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        lightboxContent.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            handleLightboxSwipe();
+        }, { passive: true });
+
+        function handleLightboxSwipe() {
+            const diffX = touchStartX - touchEndX;
+            const diffY = touchStartY - touchEndY;
+            
+            // Só considera swipe horizontal se for maior que o vertical
+            if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                if (diffX > 0) {
+                    nextImage();
+                } else {
+                    prevImage();
+                }
+            }
+        }
+
+        // ========== FILTRO PORTFÓLIO ==========
+        const filterBtns = document.querySelectorAll('.filter-btn');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+
+                portfolioItems.forEach(item => {
+                    const category = item.getAttribute('data-category');
+                    if (filter === 'all' || category === filter) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 50);
+                    } else {
+                        item.style.opacity = '0';
+                        item.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            item.style.display = 'none';
+                        }, 400);
+                    }
+                });
+
+                updateVisibleItems();
+            });
+        });
+
+        // Inicializa lista visível
+        updateVisibleItems();
+
+        // ========== SLIDER DEPOIMENTOS ==========
+        const track = document.getElementById('testimonialsTrack');
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const prevBtn = document.getElementById('prevTestimonial');
+        const nextBtn = document.getElementById('nextTestimonial');
+        const dotsContainer = document.getElementById('testimonialsDots');
+        let currentSlide = 0;
+        let autoSlideInterval;
+
+        slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.className = 'testimonial-dot' + (index === 0 ? ' active' : '');
+            dot.addEventListener('click', () => goToSlide(index));
+            dotsContainer.appendChild(dot);
+        });
+
+        const dots = document.querySelectorAll('.testimonial-dot');
+
+        function goToSlide(index) {
+            currentSlide = index;
+            track.style.transform = `translateX(-${currentSlide * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            goToSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            goToSlide(currentSlide);
+        }
+
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            resetAutoSlide();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            resetAutoSlide();
+        });
+
+        function startAutoSlide() {
+            autoSlideInterval = setInterval(nextSlide, 6000);
+        }
+
+        function resetAutoSlide() {
+            clearInterval(autoSlideInterval);
+            startAutoSlide();
+        }
+
+        startAutoSlide();
+
+        const slider = document.querySelector('.testimonials-slider');
+        slider.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+        slider.addEventListener('mouseleave', startAutoSlide);
+
+        // Swipe em mobile - depoimentos
+        let slideTouchStartX = 0;
+        let slideTouchEndX = 0;
+
+        track.addEventListener('touchstart', (e) => {
+            slideTouchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        track.addEventListener('touchend', (e) => {
+            slideTouchEndX = e.changedTouches[0].screenX;
+            handleSlideSwipe();
+        }, { passive: true });
+
+        function handleSlideSwipe() {
+            const diff = slideTouchStartX - slideTouchEndX;
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) nextSlide();
+                else prevSlide();
+                resetAutoSlide();
+            }
+        }
+
+        // ========== SMOOTH SCROLL ==========
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    const offset = window.innerWidth < 768 ? 60 : 80;
+                    const offsetTop = target.offsetTop - offset;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // ========== RIPPLE EFFECT (touch feedback app-like) ==========
+        function createRipple(event, element) {
+            const ripple = document.createElement('span');
+            ripple.className = 'ripple';
+            
+            const rect = element.getBoundingClientRect();
+            const size = Math.max(rect.width, rect.height);
+            const x = (event.touches ? event.touches[0].clientX : event.clientX) - rect.left - size / 2;
+            const y = (event.touches ? event.touches[0].clientY : event.clientY) - rect.top - size / 2;
+            
+            ripple.style.width = ripple.style.height = size + 'px';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            
+            element.appendChild(ripple);
+            
+            setTimeout(() => ripple.remove(), 600);
+        }
+
+        // Aplica ripple em botões da bottom nav
+        document.querySelectorAll('.bottom-nav-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                createRipple(e, this);
+            });
+        });
+
+        // Aplica ripple em botões principais
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                createRipple(e, this);
+            });
+        });
+
+        // ========== PARALLAX SUAVE NO HERO (só desktop) ==========
+        const heroBg = document.querySelector('.hero-bg');
+        if (heroBg && window.innerWidth > 1024) {
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+                if (scrollY < window.innerHeight) {
+                    heroBg.style.transform = `scale(1.05) translateY(${scrollY * 0.3}px)`;
+                }
+            });
+        }
+
+        // ========== CONSOLE BRANDING ==========
+        console.log('%c✨ INOVART JDP - Móveis Sob Medida ✨', 
+            'background: linear-gradient(135deg, #3d2817, #c9a961); color: #fff; padding: 12px 24px; font-size: 16px; font-weight: bold; border-radius: 8px;');
+        console.log('%cVersão 2.0 - Galeria Lightbox + App-like Experience', 
+            'color: #c9a961; font-size: 12px; font-style: italic;');
+    </script>
+
+    <!-- ========== STRUCTURED DATA (SEO) ========== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "INOVART JDP - Móveis Sob Medida",
+        "image": "logo.png",
+        "description": "Marcenaria de alto padrão em Itapema-SC. Closets, banheiros, painéis de TV e acabamentos em Branco TX. Melhor custo-benefício da região.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "R. 902 E, 97 - Alto São Bento",
+            "addressLocality": "Itapema",
+            "addressRegion": "SC",
+            "addressCountry": "BR"
+        },
+        "telephone": "+5547984893546",
+        "url": "https://inovartjdp.com.br/",
+        "sameAs": [
+            "https://www.instagram.com/inovart_jdp/",
+            "https://www.facebook.com/jdpmoveis/"
+        ],
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 08:00-18:00, Sa 08:00-12:00"
+    }
+    </script>
+</body>
+</html>
